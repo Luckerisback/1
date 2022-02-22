@@ -124,6 +124,7 @@ public class PlayerController : MonoBehaviour
         }
         if (other.gameObject.tag == "Finish")
         {
+            anim.SetTrigger("Finish");
             endPanel.SetActive(true);
             maxSpeed = 0;
             speed = 0;
