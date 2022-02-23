@@ -10,6 +10,7 @@ public class CameraController : MonoBehaviour
     void Start()
     {
         offset = transform.position - player.position;
+        RenderSettings.ambientLight = Color.red;
     }
     //Камера идет за игроком
     void FixedUpdate()

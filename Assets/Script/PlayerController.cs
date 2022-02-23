@@ -132,7 +132,8 @@ public class PlayerController : MonoBehaviour
         if (other.gameObject.tag == "up")
         {
             Destroy(other.gameObject);
-
+            anim.SetTrigger("up");
+            dir.y = 1.65f*jumpForce;
         }
 
     }

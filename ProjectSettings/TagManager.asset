@@ -8,6 +8,8 @@ TagManager:
   - Coin
   - qte
   - up
+  - on wall
+  - endWall
   layers:
   - Default
   - TransparentFX
