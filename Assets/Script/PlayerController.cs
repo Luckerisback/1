@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
 public class PlayerController : MonoBehaviour
 {
     private CharacterController controller;
@@ -18,7 +19,8 @@ public class PlayerController : MonoBehaviour
     [SerializeField] private Text coinsText;
     [SerializeField] private Score scoreScript;
     [SerializeField] private GameObject qtePanel;
-
+    [SerializeField] private GameObject obj;
+    [SerializeField] private GameObject cam;
     private int lineToMove = 1;
     public float lineDistance = 4;
     private float maxSpeed = 110;
@@ -129,11 +131,43 @@ public class PlayerController : MonoBehaviour
             maxSpeed = 0;
             speed = 0;
         }
-        if (other.gameObject.tag == "up")
+        if (other.gameObject.tag == "up1")
         {
             Destroy(other.gameObject);
             anim.SetTrigger("up");
-            dir.y = 1.65f*jumpForce;
+            dir.y = 1.8f*jumpForce;
+            obj.GetComponent<Transform>().rotation = Quaternion.Euler(0, 0, 90);
+            cam.GetComponent<Transform>().rotation = Quaternion.Euler(0, 0, 90);
+            obj.GetComponent<Transform>().position = transform.position + new Vector3(5,0);
+            cam.GetComponent<Transform>().position = transform.position + new Vector3(2, 14);
+        }
+        if (other.gameObject.tag == "endwall1")
+        {
+            cam.GetComponent<Transform>().rotation = Quaternion.Euler(0, 0, 0);
+            obj.GetComponent<Transform>().rotation = Quaternion.Euler(0, 0, 0);
+            obj.GetComponent<Transform>().position = transform.position - new Vector3(1, 3);
+            cam.GetComponent<Transform>().position = new Vector3(0, 11.7f);
+        }
+        if (other.gameObject.tag == "up2")
+        {
+            Destroy(other.gameObject);
+            anim.SetTrigger("up");
+            dir.y = 1.8f * jumpForce;
+            obj.GetComponent<Transform>().rotation = Quaternion.Euler(0, 0, -90);
+            cam.GetComponent<Transform>().rotation = Quaternion.Euler(0, 0, -90);
+            obj.GetComponent<Transform>().position = transform.position + new Vector3(-3, 0);
+            cam.GetComponent<Transform>().position = transform.position + new Vector3(2, 14);
+        }
+        if (other.gameObject.tag == "endwall2")
+        {
+            cam.GetComponent<Transform>().rotation = Quaternion.Euler(0, 0, 0);
+            obj.GetComponent<Transform>().rotation = Quaternion.Euler(0, 0, 0);
+            obj.GetComponent<Transform>().position = transform.position - new Vector3(1, 3);
+            cam.GetComponent<Transform>().position = new Vector3(0, 11.7f);
+        }
+        if (other.gameObject.tag == "destroyer")
+        {
+            gameObject.SetActive(false);
         }
 
     }

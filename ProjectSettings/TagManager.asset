@@ -7,9 +7,11 @@ TagManager:
   - obstacle
   - Coin
   - qte
-  - up
-  - on wall
-  - endWall
+  - up1
+  - endwall1
+  - up2
+  - endwall2
+  - destroyer
   layers:
   - Default
   - TransparentFX
