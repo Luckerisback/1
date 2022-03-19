@@ -24,7 +24,7 @@ public class PlayerController : MonoBehaviour
     private int lineToMove = 1;
     public float lineDistance = 4;
     private float maxSpeed = 110;
-    //Старт игры
+    //пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
@@ -35,7 +35,7 @@ public class PlayerController : MonoBehaviour
         coinsText.text = coins.ToString();
         StartCoroutine(SpeedIncrease());
     }
-    //Движение свайпом
+    //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     private void Update()
     {
         if (SwipeController.swipeRight)
@@ -53,12 +53,12 @@ public class PlayerController : MonoBehaviour
         if (SwipeController.swipeUp)
         {
             if (controller.isGrounded)
-                Jump();
+                StartCoroutine(Jump());
         }
-        //Анимация бега
+        //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ
         if (controller.isGrounded)
             anim.SetTrigger("isRunning");
-        //Позиция игрока
+        //пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
         Vector3 targetPosition = transform.position.z * transform.forward + transform.position.y * transform.up;
         if (lineToMove == 0)
             targetPosition += Vector3.left * lineDistance;
@@ -75,20 +75,22 @@ public class PlayerController : MonoBehaviour
             controller.Move(diff);
 
     }
-    //Анимация прыжка
-    private void Jump()
+    //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
+    private IEnumerator Jump()
     {
         dir.y = jumpForce;
-        anim.SetTrigger("isJumping");
+        anim.SetInteger("State", 1);
+        yield return new WaitForSeconds(0.5f);
+        anim.SetInteger("State", 0);
     }
-    //Скорость
+    //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     void FixedUpdate()
     {
         dir.z = speed;
         dir.y += gravity * Time.fixedDeltaTime;
         controller.Move(dir * Time.fixedDeltaTime);
     }
-    //Врезание в монстра + сломанный рекорд
+    //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ + пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
     private void OnControllerColliderHit(ControllerColliderHit hit)
     {
         if (hit.gameObject.tag == "obstacle")
@@ -99,7 +101,7 @@ public class PlayerController : MonoBehaviour
             Time.timeScale = 0;
         }
     }
-    //Увеличение скорости
+    //пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     private IEnumerator SpeedIncrease()
     {
         yield return new WaitForSeconds(3);
@@ -109,7 +111,7 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(SpeedIncrease());
         }
     }
-    //Сбор монеток
+    //пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.tag == "Coin")
