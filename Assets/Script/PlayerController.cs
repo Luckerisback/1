@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -24,7 +25,13 @@ public class PlayerController : MonoBehaviour
     private int lineToMove = 1;
     public float lineDistance = 4;
     private float maxSpeed = 110;
-    //����� ����
+   
+
+    private void Awake()
+    {
+        PlayerParameters.SetParameters();
+    }
+
     void Start()
     {
         anim = GetComponentInChildren<Animator>();
@@ -35,7 +42,7 @@ public class PlayerController : MonoBehaviour
         coinsText.text = coins.ToString();
         StartCoroutine(SpeedIncrease());
     }
-    //�������� �������
+   
     private void Update()
     {
         if (SwipeController.swipeRight)
