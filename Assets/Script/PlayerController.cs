@@ -111,6 +111,8 @@ public class PlayerController : MonoBehaviour
             StartCoroutine(SpeedIncrease());
         }
     }
+
+   
     //���� �������
     private void OnTriggerEnter(Collider other)
     {
