@@ -13,7 +13,6 @@ public class BallController : MonoBehaviour
         {
             if (!isFreeBall)
             {
-                Debug.Log(1);
                 anim.SetBool("isDie", true);
                 collision.GetComponent<Animator>().SetInteger("State", 5);
                 StartCoroutine(SetDefaultAnimCoroutine(collision.GetComponent<Animator>()));
@@ -25,7 +24,7 @@ public class BallController : MonoBehaviour
             }
             ball.transform.SetParent(playerHand);
             ball.transform.localPosition = new Vector3(0,0,0);
-           
+           Debug.Log(PlayerParameters.BallCount);
         }
     }
 

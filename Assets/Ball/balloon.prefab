@@ -46,6 +46,7 @@ MonoBehaviour:
   playerHand: {fileID: 0}
   anim: {fileID: 0}
   ball: {fileID: 6629194214210727698}
+  isFreeBall: 0
 --- !u!1 &1764266398027331634
 GameObject:
   m_ObjectHideFlags: 0
@@ -332,6 +333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5815398016746173864}
   - component: {fileID: 6286682934369641104}
+  - component: {fileID: 3980973902370812014}
   m_Layer: 0
   m_Name: balloon
   m_TagString: Untagged
@@ -368,3 +370,15 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.153082, y: 2.7459896, z: 7.120929}
   m_Center: {x: -0.21279255, y: -0.53471875, z: 0.32603443}
+--- !u!114 &3980973902370812014
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6629194214210727698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71e11f82022193a49ba8d97d22b73149, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

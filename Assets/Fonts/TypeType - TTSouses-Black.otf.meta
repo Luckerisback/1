@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 7beb41db7111414499dc2ac8cda3a48c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - TT Souses
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 76ac58edf85628f4791c60fbe028cf81, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1023 @@
+fileFormatVersion: 2
+guid: 276094668339eea478445f60e7a445cb
+ModelImporter:
+  serializedVersion: 20200
+  internalIDToNameTable:
+  - first:
+      74: -3379400629470092068
+    second: Kepala|Anak SD|Take 001|BaseLayer
+  - first:
+      74: -2720294928356221235
+    second: Kepala|Celana|Take 001|BaseLayer
+  - first:
+      74: 7936033594288725862
+    second: Kepala|Kepala|Take 001|BaseLayer
+  - first:
+      74: 5235428158763663208
+    second: Kepala|Object001|Take 001|BaseLayer
+  - first:
+      74: 4133393451477022506
+    second: Kepala|Object002|Take 001|BaseLayer
+  - first:
+      74: -6541379356915170559
+    second: Kepala|Object003|Take 001|BaseLayer
+  - first:
+      74: 7197656151517715612
+    second: Kepala|Object004|Take 001|BaseLayer
+  - first:
+      74: 5221890544770931090
+    second: Kepala|Object005|Take 001|BaseLayer
+  - first:
+      74: -923805009356917200
+    second: Kepala|Object006|Take 001|BaseLayer
+  - first:
+      74: 4856525333783357923
+    second: Kepala|Object007|Take 001|BaseLayer
+  - first:
+      74: -5827617566059470113
+    second: Kepala|Plane005|Take 001|BaseLayer
+  - first:
+      74: -9081831413614423684
+    second: Kepala|Plane006|Take 001|BaseLayer
+  - first:
+      74: -2009643374847454898
+    second: Kepala|Sepatu001|Take 001|BaseLayer
+  - first:
+      74: -3541251609114861477
+    second: Kepala|Sepatu|Take 001|BaseLayer
+  - first:
+      74: 6646949962521394475
+    second: Kepala|Sky001|Take 001|BaseLayer
+  - first:
+      74: 6061178355211629491
+    second: Kepala|Sphere003|Take 001|BaseLayer
+  - first:
+      74: 2946473080338014692
+    second: Kepala|Sphere004|Take 001|BaseLayer
+  - first:
+      74: -8402247028087325148
+    second: Kepala|Sphere005|Take 001|BaseLayer
+  - first:
+      74: -4888853266894714278
+    second: Object001|Anak SD|Take 001|BaseLayer
+  - first:
+      74: -7196593450750830264
+    second: Object001|Celana|Take 001|BaseLayer
+  - first:
+      74: 4858332018949740350
+    second: Object001|Kepala|Take 001|BaseLayer
+  - first:
+      74: -1951999145027632924
+    second: Object001|Object001|Take 001|BaseLayer
+  - first:
+      74: -4926166871046787513
+    second: Object001|Object002|Take 001|BaseLayer
+  - first:
+      74: -731982362827399329
+    second: Object001|Object003|Take 001|BaseLayer
+  - first:
+      74: -7629256502982315473
+    second: Object001|Object004|Take 001|BaseLayer
+  - first:
+      74: 2086959421224907383
+    second: Object001|Object005|Take 001|BaseLayer
+  - first:
+      74: 276906262885531388
+    second: Object001|Object006|Take 001|BaseLayer
+  - first:
+      74: 3203153416292673729
+    second: Object001|Object007|Take 001|BaseLayer
+  - first:
+      74: 57051489057308150
+    second: Object001|Plane005|Take 001|BaseLayer
+  - first:
+      74: 6333449578733465008
+    second: Object001|Plane006|Take 001|BaseLayer
+  - first:
+      74: 5995486514108905311
+    second: Object001|Sepatu001|Take 001|BaseLayer
+  - first:
+      74: -119249788415622287
+    second: Object001|Sepatu|Take 001|BaseLayer
+  - first:
+      74: 9205106748679833637
+    second: Object001|Sky001|Take 001|BaseLayer
+  - first:
+      74: -9199831227864495072
+    second: Object001|Sphere003|Take 001|BaseLayer
+  - first:
+      74: 1291805282530681684
+    second: Object001|Sphere004|Take 001|BaseLayer
+  - first:
+      74: 995865670944957583
+    second: Object001|Sphere005|Take 001|BaseLayer
+  - first:
+      74: -443636994830493736
+    second: Object002|Anak SD|Take 001|BaseLayer
+  - first:
+      74: -4634452788805270452
+    second: Object002|Celana|Take 001|BaseLayer
+  - first:
+      74: -1051913813435125184
+    second: Object002|Kepala|Take 001|BaseLayer
+  - first:
+      74: -4947253048100400662
+    second: Object002|Object001|Take 001|BaseLayer
+  - first:
+      74: -8793137844476560109
+    second: Object002|Object002|Take 001|BaseLayer
+  - first:
+      74: -7422116193782569785
+    second: Object002|Object003|Take 001|BaseLayer
+  - first:
+      74: -3472773480271691196
+    second: Object002|Object004|Take 001|BaseLayer
+  - first:
+      74: -4547951719027457807
+    second: Object002|Object005|Take 001|BaseLayer
+  - first:
+      74: -6314241998895630591
+    second: Object002|Object006|Take 001|BaseLayer
+  - first:
+      74: 4506597042009180019
+    second: Object002|Object007|Take 001|BaseLayer
+  - first:
+      74: -3562292535555747744
+    second: Object002|Plane005|Take 001|BaseLayer
+  - first:
+      74: 8260795201125572497
+    second: Object002|Plane006|Take 001|BaseLayer
+  - first:
+      74: -3542556193797522398
+    second: Object002|Sepatu001|Take 001|BaseLayer
+  - first:
+      74: -1148118168920720277
+    second: Object002|Sepatu|Take 001|BaseLayer
+  - first:
+      74: -5916102159053425520
+    second: Object002|Sky001|Take 001|BaseLayer
+  - first:
+      74: 2611358470365913909
+    second: Object002|Sphere003|Take 001|BaseLayer
+  - first:
+      74: 2573411524556259597
+    second: Object002|Sphere004|Take 001|BaseLayer
+  - first:
+      74: 6934818268309601793
+    second: Object002|Sphere005|Take 001|BaseLayer
+  - first:
+      74: 4162474976905210317
+    second: Object003|Anak SD|Take 001|BaseLayer
+  - first:
+      74: -183653371016529453
+    second: Object003|Celana|Take 001|BaseLayer
+  - first:
+      74: 5181767268891056667
+    second: Object003|Kepala|Take 001|BaseLayer
+  - first:
+      74: -1712851994479065620
+    second: Object003|Object001|Take 001|BaseLayer
+  - first:
+      74: 7646037920478378391
+    second: Object003|Object002|Take 001|BaseLayer
+  - first:
+      74: 5022597664044783739
+    second: Object003|Object003|Take 001|BaseLayer
+  - first:
+      74: -7089781994532905240
+    second: Object003|Object004|Take 001|BaseLayer
+  - first:
+      74: 675989951292228468
+    second: Object003|Object005|Take 001|BaseLayer
+  - first:
+      74: 4354220458948443234
+    second: Object003|Object006|Take 001|BaseLayer
+  - first:
+      74: -4772696271690563913
+    second: Object003|Object007|Take 001|BaseLayer
+  - first:
+      74: -7706217383282299765
+    second: Object003|Plane005|Take 001|BaseLayer
+  - first:
+      74: -6057570173759542150
+    second: Object003|Plane006|Take 001|BaseLayer
+  - first:
+      74: 2977500533190185815
+    second: Object003|Sepatu001|Take 001|BaseLayer
+  - first:
+      74: 8026135202688734977
+    second: Object003|Sepatu|Take 001|BaseLayer
+  - first:
+      74: -1913432069315853468
+    second: Object003|Sky001|Take 001|BaseLayer
+  - first:
+      74: -4724996039513850708
+    second: Object003|Sphere003|Take 001|BaseLayer
+  - first:
+      74: -30866111658045744
+    second: Object003|Sphere004|Take 001|BaseLayer
+  - first:
+      74: -8973688902691281269
+    second: Object003|Sphere005|Take 001|BaseLayer
+  - first:
+      74: 6854507067068961064
+    second: Object004|Anak SD|Take 001|BaseLayer
+  - first:
+      74: -2149592645646527617
+    second: Object004|Celana|Take 001|BaseLayer
+  - first:
+      74: -2830803453706934506
+    second: Object004|Kepala|Take 001|BaseLayer
+  - first:
+      74: -5240322020457215304
+    second: Object004|Object001|Take 001|BaseLayer
+  - first:
+      74: -7287475286165978110
+    second: Object004|Object002|Take 001|BaseLayer
+  - first:
+      74: -5883686201512326528
+    second: Object004|Object003|Take 001|BaseLayer
+  - first:
+      74: -5579148606572955041
+    second: Object004|Object004|Take 001|BaseLayer
+  - first:
+      74: 800874637582055203
+    second: Object004|Object005|Take 001|BaseLayer
+  - first:
+      74: 1737461016290551888
+    second: Object004|Object006|Take 001|BaseLayer
+  - first:
+      74: -4234456072898241967
+    second: Object004|Object007|Take 001|BaseLayer
+  - first:
+      74: -5437962125542511381
+    second: Object004|Plane005|Take 001|BaseLayer
+  - first:
+      74: -308878225884250465
+    second: Object004|Plane006|Take 001|BaseLayer
+  - first:
+      74: -5187160177357141775
+    second: Object004|Sepatu001|Take 001|BaseLayer
+  - first:
+      74: 3387671462123796379
+    second: Object004|Sepatu|Take 001|BaseLayer
+  - first:
+      74: 4483605166093933288
+    second: Object004|Sky001|Take 001|BaseLayer
+  - first:
+      74: -8425827581424043267
+    second: Object004|Sphere003|Take 001|BaseLayer
+  - first:
+      74: -277157326293499117
+    second: Object004|Sphere004|Take 001|BaseLayer
+  - first:
+      74: 7411998153693549977
+    second: Object004|Sphere005|Take 001|BaseLayer
+  - first:
+      74: -4396766888692414993
+    second: Object005|Anak SD|Take 001|BaseLayer
+  - first:
+      74: -1966939471556408535
+    second: Object005|Celana|Take 001|BaseLayer
+  - first:
+      74: -2304836321892788544
+    second: Object005|Kepala|Take 001|BaseLayer
+  - first:
+      74: 5454586339006214007
+    second: Object005|Object001|Take 001|BaseLayer
+  - first:
+      74: -8121202478915476895
+    second: Object005|Object002|Take 001|BaseLayer
+  - first:
+      74: -7112545503015768511
+    second: Object005|Object003|Take 001|BaseLayer
+  - first:
+      74: -506818670514687396
+    second: Object005|Object004|Take 001|BaseLayer
+  - first:
+      74: 8029063470262894349
+    second: Object005|Object005|Take 001|BaseLayer
+  - first:
+      74: -3883206067438609267
+    second: Object005|Object006|Take 001|BaseLayer
+  - first:
+      74: 8295742280620666980
+    second: Object005|Object007|Take 001|BaseLayer
+  - first:
+      74: 8222439264578907067
+    second: Object005|Plane005|Take 001|BaseLayer
+  - first:
+      74: -8293728856005468280
+    second: Object005|Plane006|Take 001|BaseLayer
+  - first:
+      74: 7927470796915682813
+    second: Object005|Sepatu001|Take 001|BaseLayer
+  - first:
+      74: 3464010459165491744
+    second: Object005|Sepatu|Take 001|BaseLayer
+  - first:
+      74: 4370870686055054580
+    second: Object005|Sky001|Take 001|BaseLayer
+  - first:
+      74: 8336400272056489370
+    second: Object005|Sphere003|Take 001|BaseLayer
+  - first:
+      74: -2580355528533413657
+    second: Object005|Sphere004|Take 001|BaseLayer
+  - first:
+      74: 4078196252484794323
+    second: Object005|Sphere005|Take 001|BaseLayer
+  - first:
+      74: -7418669492788548535
+    second: Object006|Anak SD|Take 001|BaseLayer
+  - first:
+      74: 1616751411360946995
+    second: Object006|Celana|Take 001|BaseLayer
+  - first:
+      74: -2293976598573733017
+    second: Object006|Kepala|Take 001|BaseLayer
+  - first:
+      74: -1163071072004319530
+    second: Object006|Object001|Take 001|BaseLayer
+  - first:
+      74: 6251045816437589537
+    second: Object006|Object002|Take 001|BaseLayer
+  - first:
+      74: 4927909824051396327
+    second: Object006|Object003|Take 001|BaseLayer
+  - first:
+      74: -635742760508757361
+    second: Object006|Object004|Take 001|BaseLayer
+  - first:
+      74: -40843802003982831
+    second: Object006|Object005|Take 001|BaseLayer
+  - first:
+      74: 4485848483759978003
+    second: Object006|Object006|Take 001|BaseLayer
+  - first:
+      74: 459653624881690644
+    second: Object006|Object007|Take 001|BaseLayer
+  - first:
+      74: -126690457563912315
+    second: Object006|Plane005|Take 001|BaseLayer
+  - first:
+      74: -3950427064623644023
+    second: Object006|Plane006|Take 001|BaseLayer
+  - first:
+      74: -5018027929398018987
+    second: Object006|Sepatu001|Take 001|BaseLayer
+  - first:
+      74: 1927527563784844316
+    second: Object006|Sepatu|Take 001|BaseLayer
+  - first:
+      74: 3977515153469957200
+    second: Object006|Sky001|Take 001|BaseLayer
+  - first:
+      74: -2460121425045663814
+    second: Object006|Sphere003|Take 001|BaseLayer
+  - first:
+      74: 1226969488789357581
+    second: Object006|Sphere004|Take 001|BaseLayer
+  - first:
+      74: -5238635584900726490
+    second: Object006|Sphere005|Take 001|BaseLayer
+  - first:
+      74: -7712961546874296309
+    second: Sphere003|Anak SD|Take 001|BaseLayer
+  - first:
+      74: 5877058032341504268
+    second: Sphere003|Celana|Take 001|BaseLayer
+  - first:
+      74: 8995707281025814952
+    second: Sphere003|Kepala|Take 001|BaseLayer
+  - first:
+      74: 7645052789856924076
+    second: Sphere003|Object001|Take 001|BaseLayer
+  - first:
+      74: -1832462906613199391
+    second: Sphere003|Object002|Take 001|BaseLayer
+  - first:
+      74: -2666893237253016146
+    second: Sphere003|Object003|Take 001|BaseLayer
+  - first:
+      74: 3234844304238425609
+    second: Sphere003|Object004|Take 001|BaseLayer
+  - first:
+      74: 775562220140910790
+    second: Sphere003|Object005|Take 001|BaseLayer
+  - first:
+      74: 1382118308669237966
+    second: Sphere003|Object006|Take 001|BaseLayer
+  - first:
+      74: -1914676175146922825
+    second: Sphere003|Object007|Take 001|BaseLayer
+  - first:
+      74: -4533374552520167150
+    second: Sphere003|Plane005|Take 001|BaseLayer
+  - first:
+      74: -1068542537948719884
+    second: Sphere003|Plane006|Take 001|BaseLayer
+  - first:
+      74: 2850672625606752546
+    second: Sphere003|Sepatu001|Take 001|BaseLayer
+  - first:
+      74: -8787883700468597160
+    second: Sphere003|Sepatu|Take 001|BaseLayer
+  - first:
+      74: -3323084881238145313
+    second: Sphere003|Sky001|Take 001|BaseLayer
+  - first:
+      74: 6348248360192766630
+    second: Sphere003|Sphere003|Take 001|BaseLayer
+  - first:
+      74: -386465099186722966
+    second: Sphere003|Sphere004|Take 001|BaseLayer
+  - first:
+      74: 3586478565595020894
+    second: Sphere003|Sphere005|Take 001|BaseLayer
+  - first:
+      74: -380168466251109432
+    second: Plane005|Anak SD|Take 001|BaseLayer
+  - first:
+      74: 148617541979273637
+    second: Plane005|Celana|Take 001|BaseLayer
+  - first:
+      74: -3662556162552685808
+    second: Plane005|Kepala|Take 001|BaseLayer
+  - first:
+      74: -2485459486141010026
+    second: Plane005|Object001|Take 001|BaseLayer
+  - first:
+      74: -394121631152662663
+    second: Plane005|Object002|Take 001|BaseLayer
+  - first:
+      74: 6802844934989679626
+    second: Plane005|Object003|Take 001|BaseLayer
+  - first:
+      74: 1273958397297979201
+    second: Plane005|Object004|Take 001|BaseLayer
+  - first:
+      74: 3754599546851928618
+    second: Plane005|Object005|Take 001|BaseLayer
+  - first:
+      74: 5887016616703027832
+    second: Plane005|Object006|Take 001|BaseLayer
+  - first:
+      74: -561683908415519831
+    second: Plane005|Object007|Take 001|BaseLayer
+  - first:
+      74: 4984996474883450883
+    second: Plane005|Plane005|Take 001|BaseLayer
+  - first:
+      74: -6206231390099288606
+    second: Plane005|Plane006|Take 001|BaseLayer
+  - first:
+      74: -4721069556438121153
+    second: Plane005|Sepatu001|Take 001|BaseLayer
+  - first:
+      74: -2688980731795473611
+    second: Plane005|Sepatu|Take 001|BaseLayer
+  - first:
+      74: 6762366849422136265
+    second: Plane005|Sky001|Take 001|BaseLayer
+  - first:
+      74: -4955088071769121226
+    second: Plane005|Sphere003|Take 001|BaseLayer
+  - first:
+      74: -5339857013872366360
+    second: Plane005|Sphere004|Take 001|BaseLayer
+  - first:
+      74: 4644160391208093907
+    second: Plane005|Sphere005|Take 001|BaseLayer
+  - first:
+      74: -3356093159591610593
+    second: Object007|Anak SD|Take 001|BaseLayer
+  - first:
+      74: 1886766959536413880
+    second: Object007|Celana|Take 001|BaseLayer
+  - first:
+      74: -8536847756862333816
+    second: Object007|Kepala|Take 001|BaseLayer
+  - first:
+      74: 6436528953642715981
+    second: Object007|Object001|Take 001|BaseLayer
+  - first:
+      74: 1098334414034257595
+    second: Object007|Object002|Take 001|BaseLayer
+  - first:
+      74: -7268904323059506841
+    second: Object007|Object003|Take 001|BaseLayer
+  - first:
+      74: -4029613470174064147
+    second: Object007|Object004|Take 001|BaseLayer
+  - first:
+      74: -4423943477828803109
+    second: Object007|Object005|Take 001|BaseLayer
+  - first:
+      74: 7464957777030874488
+    second: Object007|Object006|Take 001|BaseLayer
+  - first:
+      74: 8429175140312549675
+    second: Object007|Object007|Take 001|BaseLayer
+  - first:
+      74: -2808468072630120429
+    second: Object007|Plane005|Take 001|BaseLayer
+  - first:
+      74: -5419724963566165197
+    second: Object007|Plane006|Take 001|BaseLayer
+  - first:
+      74: -333969789823732459
+    second: Object007|Sepatu001|Take 001|BaseLayer
+  - first:
+      74: -2106675374053401396
+    second: Object007|Sepatu|Take 001|BaseLayer
+  - first:
+      74: 4588140252959548823
+    second: Object007|Sky001|Take 001|BaseLayer
+  - first:
+      74: 1342973520088288789
+    second: Object007|Sphere003|Take 001|BaseLayer
+  - first:
+      74: 1041787334128766956
+    second: Object007|Sphere004|Take 001|BaseLayer
+  - first:
+      74: 1678637446520084488
+    second: Object007|Sphere005|Take 001|BaseLayer
+  - first:
+      74: 6408796823652149619
+    second: Sphere004|Anak SD|Take 001|BaseLayer
+  - first:
+      74: -1644707072243432183
+    second: Sphere004|Celana|Take 001|BaseLayer
+  - first:
+      74: -1529627052449852759
+    second: Sphere004|Kepala|Take 001|BaseLayer
+  - first:
+      74: -6200197571937031655
+    second: Sphere004|Object001|Take 001|BaseLayer
+  - first:
+      74: 4879776382325706267
+    second: Sphere004|Object002|Take 001|BaseLayer
+  - first:
+      74: 2302160763856212493
+    second: Sphere004|Object003|Take 001|BaseLayer
+  - first:
+      74: -8376926881550776331
+    second: Sphere004|Object004|Take 001|BaseLayer
+  - first:
+      74: 3111651029133030526
+    second: Sphere004|Object005|Take 001|BaseLayer
+  - first:
+      74: 311149020156025210
+    second: Sphere004|Object006|Take 001|BaseLayer
+  - first:
+      74: -4329996516768282808
+    second: Sphere004|Object007|Take 001|BaseLayer
+  - first:
+      74: -5013455913544437601
+    second: Sphere004|Plane005|Take 001|BaseLayer
+  - first:
+      74: 3823856504335536353
+    second: Sphere004|Plane006|Take 001|BaseLayer
+  - first:
+      74: -4483603391288859801
+    second: Sphere004|Sepatu001|Take 001|BaseLayer
+  - first:
+      74: 1159049317301573111
+    second: Sphere004|Sepatu|Take 001|BaseLayer
+  - first:
+      74: 2525364166247403448
+    second: Sphere004|Sky001|Take 001|BaseLayer
+  - first:
+      74: 3523509037071787413
+    second: Sphere004|Sphere003|Take 001|BaseLayer
+  - first:
+      74: 3272526690850989696
+    second: Sphere004|Sphere004|Take 001|BaseLayer
+  - first:
+      74: 3140723769318920299
+    second: Sphere004|Sphere005|Take 001|BaseLayer
+  - first:
+      74: 3184210423223977884
+    second: Sphere005|Anak SD|Take 001|BaseLayer
+  - first:
+      74: -3819997227224600565
+    second: Sphere005|Celana|Take 001|BaseLayer
+  - first:
+      74: -2105905417874918967
+    second: Sphere005|Kepala|Take 001|BaseLayer
+  - first:
+      74: 307246880248725103
+    second: Sphere005|Object001|Take 001|BaseLayer
+  - first:
+      74: 2729552550735582326
+    second: Sphere005|Object002|Take 001|BaseLayer
+  - first:
+      74: 1073999795608837309
+    second: Sphere005|Object003|Take 001|BaseLayer
+  - first:
+      74: -6633617515136779676
+    second: Sphere005|Object004|Take 001|BaseLayer
+  - first:
+      74: -6738063738992904787
+    second: Sphere005|Object005|Take 001|BaseLayer
+  - first:
+      74: -123771285189113189
+    second: Sphere005|Object006|Take 001|BaseLayer
+  - first:
+      74: -547327102479653682
+    second: Sphere005|Object007|Take 001|BaseLayer
+  - first:
+      74: -1039935244088856695
+    second: Sphere005|Plane005|Take 001|BaseLayer
+  - first:
+      74: 4358595165750958119
+    second: Sphere005|Plane006|Take 001|BaseLayer
+  - first:
+      74: -6759473114727469775
+    second: Sphere005|Sepatu001|Take 001|BaseLayer
+  - first:
+      74: 4468468749624785528
+    second: Sphere005|Sepatu|Take 001|BaseLayer
+  - first:
+      74: 2352228879601049943
+    second: Sphere005|Sky001|Take 001|BaseLayer
+  - first:
+      74: -4963663834917380130
+    second: Sphere005|Sphere003|Take 001|BaseLayer
+  - first:
+      74: 6130647251240200043
+    second: Sphere005|Sphere004|Take 001|BaseLayer
+  - first:
+      74: -2863375827234807733
+    second: Sphere005|Sphere005|Take 001|BaseLayer
+  - first:
+      74: -8582694422508048815
+    second: Celana|Anak SD|Take 001|BaseLayer
+  - first:
+      74: -6881910635996088232
+    second: Celana|Celana|Take 001|BaseLayer
+  - first:
+      74: 3714605930612378198
+    second: Celana|Kepala|Take 001|BaseLayer
+  - first:
+      74: -8980668207239629125
+    second: Celana|Object001|Take 001|BaseLayer
+  - first:
+      74: 7160017495221655697
+    second: Celana|Object002|Take 001|BaseLayer
+  - first:
+      74: 7321476829746671560
+    second: Celana|Object003|Take 001|BaseLayer
+  - first:
+      74: 2674806751714938778
+    second: Celana|Object004|Take 001|BaseLayer
+  - first:
+      74: 5066481436767532980
+    second: Celana|Object005|Take 001|BaseLayer
+  - first:
+      74: 5094788631270532800
+    second: Celana|Object006|Take 001|BaseLayer
+  - first:
+      74: -8533377451767957473
+    second: Celana|Object007|Take 001|BaseLayer
+  - first:
+      74: 6662046276561060369
+    second: Celana|Plane005|Take 001|BaseLayer
+  - first:
+      74: -2951707940036635408
+    second: Celana|Plane006|Take 001|BaseLayer
+  - first:
+      74: -6594367914920138447
+    second: Celana|Sepatu001|Take 001|BaseLayer
+  - first:
+      74: -2423461737819618573
+    second: Celana|Sepatu|Take 001|BaseLayer
+  - first:
+      74: 15285268248733042
+    second: Celana|Sky001|Take 001|BaseLayer
+  - first:
+      74: 8096856768662111518
+    second: Celana|Sphere003|Take 001|BaseLayer
+  - first:
+      74: 5024366794227499399
+    second: Celana|Sphere004|Take 001|BaseLayer
+  - first:
+      74: 2517593592136275230
+    second: Celana|Sphere005|Take 001|BaseLayer
+  - first:
+      74: 1107476427445790503
+    second: Sepatu|Anak SD|Take 001|BaseLayer
+  - first:
+      74: 279779010952180224
+    second: Sepatu|Celana|Take 001|BaseLayer
+  - first:
+      74: -6940844647206245632
+    second: Sepatu|Kepala|Take 001|BaseLayer
+  - first:
+      74: -2232274534755185939
+    second: Sepatu|Object001|Take 001|BaseLayer
+  - first:
+      74: 1893861550974227035
+    second: Sepatu|Object002|Take 001|BaseLayer
+  - first:
+      74: -3702736196292710228
+    second: Sepatu|Object003|Take 001|BaseLayer
+  - first:
+      74: 3099537680252765580
+    second: Sepatu|Object004|Take 001|BaseLayer
+  - first:
+      74: 8169113911692658728
+    second: Sepatu|Object005|Take 001|BaseLayer
+  - first:
+      74: -5061317992481736261
+    second: Sepatu|Object006|Take 001|BaseLayer
+  - first:
+      74: 6030164129632950411
+    second: Sepatu|Object007|Take 001|BaseLayer
+  - first:
+      74: 4765671773358792833
+    second: Sepatu|Plane005|Take 001|BaseLayer
+  - first:
+      74: 4429469753635521627
+    second: Sepatu|Plane006|Take 001|BaseLayer
+  - first:
+      74: -3796073772487027347
+    second: Sepatu|Sepatu001|Take 001|BaseLayer
+  - first:
+      74: 8934537779140579742
+    second: Sepatu|Sepatu|Take 001|BaseLayer
+  - first:
+      74: -5094334463821432263
+    second: Sepatu|Sky001|Take 001|BaseLayer
+  - first:
+      74: 2295635194684374334
+    second: Sepatu|Sphere003|Take 001|BaseLayer
+  - first:
+      74: 6921516385411789294
+    second: Sepatu|Sphere004|Take 001|BaseLayer
+  - first:
+      74: -7140290475971431318
+    second: Sepatu|Sphere005|Take 001|BaseLayer
+  - first:
+      74: 4368768701230835296
+    second: Sepatu001|Anak SD|Take 001|BaseLayer
+  - first:
+      74: 4929213006589174459
+    second: Sepatu001|Celana|Take 001|BaseLayer
+  - first:
+      74: -6639013481575841595
+    second: Sepatu001|Kepala|Take 001|BaseLayer
+  - first:
+      74: -1455820124452321365
+    second: Sepatu001|Object001|Take 001|BaseLayer
+  - first:
+      74: -6572348222653781963
+    second: Sepatu001|Object002|Take 001|BaseLayer
+  - first:
+      74: -3871787439463582801
+    second: Sepatu001|Object003|Take 001|BaseLayer
+  - first:
+      74: 2431107590096673042
+    second: Sepatu001|Object004|Take 001|BaseLayer
+  - first:
+      74: -279727447465237148
+    second: Sepatu001|Object005|Take 001|BaseLayer
+  - first:
+      74: -8264044967045817638
+    second: Sepatu001|Object006|Take 001|BaseLayer
+  - first:
+      74: -2708780364229345104
+    second: Sepatu001|Object007|Take 001|BaseLayer
+  - first:
+      74: -5758095110090837115
+    second: Sepatu001|Plane005|Take 001|BaseLayer
+  - first:
+      74: -8827235144697085550
+    second: Sepatu001|Plane006|Take 001|BaseLayer
+  - first:
+      74: 2450003901564007029
+    second: Sepatu001|Sepatu001|Take 001|BaseLayer
+  - first:
+      74: 7317885508717999552
+    second: Sepatu001|Sepatu|Take 001|BaseLayer
+  - first:
+      74: 5990131281468983169
+    second: Sepatu001|Sky001|Take 001|BaseLayer
+  - first:
+      74: -4598489859117986200
+    second: Sepatu001|Sphere003|Take 001|BaseLayer
+  - first:
+      74: 3579012173927255888
+    second: Sepatu001|Sphere004|Take 001|BaseLayer
+  - first:
+      74: 9178475734034363523
+    second: Sepatu001|Sphere005|Take 001|BaseLayer
+  - first:
+      74: 6971380980761807087
+    second: Anak SD|Anak SD|Take 001|BaseLayer
+  - first:
+      74: -8684953995621724315
+    second: Anak SD|Celana|Take 001|BaseLayer
+  - first:
+      74: 9061878656042192466
+    second: Anak SD|Kepala|Take 001|BaseLayer
+  - first:
+      74: 477547268449463033
+    second: Anak SD|Object001|Take 001|BaseLayer
+  - first:
+      74: -4559314605749214511
+    second: Anak SD|Object002|Take 001|BaseLayer
+  - first:
+      74: 4826261557332992373
+    second: Anak SD|Object003|Take 001|BaseLayer
+  - first:
+      74: 6426561902937490651
+    second: Anak SD|Object004|Take 001|BaseLayer
+  - first:
+      74: -5485438085645772888
+    second: Anak SD|Object005|Take 001|BaseLayer
+  - first:
+      74: -8808563538399356323
+    second: Anak SD|Object006|Take 001|BaseLayer
+  - first:
+      74: 2972855467376804658
+    second: Anak SD|Object007|Take 001|BaseLayer
+  - first:
+      74: 9000247358615202918
+    second: Anak SD|Plane005|Take 001|BaseLayer
+  - first:
+      74: -3459861966655980558
+    second: Anak SD|Plane006|Take 001|BaseLayer
+  - first:
+      74: -4860604323815733440
+    second: Anak SD|Sepatu001|Take 001|BaseLayer
+  - first:
+      74: -4907519722592494342
+    second: Anak SD|Sepatu|Take 001|BaseLayer
+  - first:
+      74: -1846119299319160284
+    second: Anak SD|Sky001|Take 001|BaseLayer
+  - first:
+      74: -4005890254276846711
+    second: Anak SD|Sphere003|Take 001|BaseLayer
+  - first:
+      74: 4508170923734155512
+    second: Anak SD|Sphere004|Take 001|BaseLayer
+  - first:
+      74: 2417468980176897883
+    second: Anak SD|Sphere005|Take 001|BaseLayer
+  - first:
+      74: 8265990198441767515
+    second: Sky001|Anak SD|Take 001|BaseLayer
+  - first:
+      74: -616967857773394153
+    second: Sky001|Celana|Take 001|BaseLayer
+  - first:
+      74: 7303214606625614921
+    second: Sky001|Kepala|Take 001|BaseLayer
+  - first:
+      74: -6456866293439100696
+    second: Sky001|Object001|Take 001|BaseLayer
+  - first:
+      74: -1707925644946091963
+    second: Sky001|Object002|Take 001|BaseLayer
+  - first:
+      74: -6555602352017239123
+    second: Sky001|Object003|Take 001|BaseLayer
+  - first:
+      74: -5149548179488337971
+    second: Sky001|Object004|Take 001|BaseLayer
+  - first:
+      74: 6312355239902719426
+    second: Sky001|Object005|Take 001|BaseLayer
+  - first:
+      74: 3685288734388089594
+    second: Sky001|Object006|Take 001|BaseLayer
+  - first:
+      74: 5580285348868007707
+    second: Sky001|Object007|Take 001|BaseLayer
+  - first:
+      74: -5557465732001580845
+    second: Sky001|Plane005|Take 001|BaseLayer
+  - first:
+      74: 8263735513637474139
+    second: Sky001|Plane006|Take 001|BaseLayer
+  - first:
+      74: -8867945011553052004
+    second: Sky001|Sepatu001|Take 001|BaseLayer
+  - first:
+      74: 2064935911892189182
+    second: Sky001|Sepatu|Take 001|BaseLayer
+  - first:
+      74: -5710580782054362051
+    second: Sky001|Sky001|Take 001|BaseLayer
+  - first:
+      74: -1002119055429341503
+    second: Sky001|Sphere003|Take 001|BaseLayer
+  - first:
+      74: 4448692649001221140
+    second: Sky001|Sphere004|Take 001|BaseLayer
+  - first:
+      74: -8110590822175055297
+    second: Sky001|Sphere005|Take 001|BaseLayer
+  - first:
+      74: -203655887218126122
+    second: mixamo.com
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
